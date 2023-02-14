@@ -1,0 +1,17 @@
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\bin\Debug\net6.0-windows\sistemapodologa.exe
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\bin\Debug\net6.0-windows\sistemapodologa.deps.json
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\bin\Debug\net6.0-windows\sistemapodologa.runtimeconfig.json
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\bin\Debug\net6.0-windows\sistemapodologa.dll
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\bin\Debug\net6.0-windows\sistemapodologa.pdb
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\sistemapodologa.csproj.AssemblyReference.cache
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\sistemapodologa.csproj.GenerateResource.cache
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\sistemapodologa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\sistemapodologa.AssemblyInfoInputs.cache
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\sistemapodologa.AssemblyInfo.cs
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\sistemapodologa.csproj.CoreCompileInputs.cache
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\sistemapodologa.dll
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\refint\sistemapodologa.dll
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\sistemapodologa.pdb
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\sistemapodologa.genruntimeconfig.cache
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\ref\sistemapodologa.dll
+C:\Users\Anderson.Sylvestre\Documents\projetoPodologa\podologa\sistemapodologa\sistemapodologa\obj\Debug\net6.0-windows\sistemapodologa.Podologia.resources
