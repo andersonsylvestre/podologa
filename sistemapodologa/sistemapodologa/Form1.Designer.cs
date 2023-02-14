@@ -33,6 +33,7 @@
             this.btnConfiguração = new System.Windows.Forms.Button();
             this.btnAgnedamentos = new System.Windows.Forms.Button();
             this.btnCadastro = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,6 +42,7 @@
             this.panelMenu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.panelMenu.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panelMenu.Controls.Add(this.btnSair);
             this.panelMenu.Controls.Add(this.btnConfiguração);
             this.panelMenu.Controls.Add(this.btnAgnedamentos);
             this.panelMenu.Controls.Add(this.btnCadastro);
@@ -89,6 +91,19 @@
             this.btnCadastro.Text = "Cadastro";
             this.btnCadastro.UseVisualStyleBackColor = true;
             // 
+            // btnSair
+            // 
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSair.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnSair.Location = new System.Drawing.Point(36, 591);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(293, 77);
+            this.btnSair.TabIndex = 3;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            // 
             // Podologia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -112,5 +127,6 @@
         private Button btnCadastro;
         private Button btnConfiguração;
         private Button btnAgnedamentos;
+        private Button btnSair;
     }
 }
