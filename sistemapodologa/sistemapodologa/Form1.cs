@@ -1,8 +1,8 @@
 namespace sistemapodologa
 {
-    public partial class Podologia : Form
+    public partial class FormPodologia : Form
     {
-        public Podologia()
+        public FormPodologia()
         {
             InitializeComponent();
         }

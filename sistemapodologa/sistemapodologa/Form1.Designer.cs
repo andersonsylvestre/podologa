@@ -1,6 +1,6 @@
 ﻿namespace sistemapodologa
 {
-    partial class Podologia
+    partial class FormPodologia
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,91 +28,86 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Podologia));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPodologia));
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.btnConfiguração = new System.Windows.Forms.Button();
-            this.btnAgnedamentos = new System.Windows.Forms.Button();
-            this.btnCadastro = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.btnConfiguraçao = new System.Windows.Forms.Button();
+            this.btnAgendamentos = new System.Windows.Forms.Button();
+            this.btnCadastro = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
-            this.panelMenu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.panelMenu.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panelMenu.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panelMenu.Controls.Add(this.btnSair);
-            this.panelMenu.Controls.Add(this.btnConfiguração);
-            this.panelMenu.Controls.Add(this.btnAgnedamentos);
+            this.panelMenu.Controls.Add(this.btnConfiguraçao);
+            this.panelMenu.Controls.Add(this.btnAgendamentos);
             this.panelMenu.Controls.Add(this.btnCadastro);
-            this.panelMenu.Location = new System.Drawing.Point(12, 12);
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.panelMenu.Size = new System.Drawing.Size(368, 731);
+            this.panelMenu.Size = new System.Drawing.Size(343, 785);
             this.panelMenu.TabIndex = 0;
-            // 
-            // btnConfiguração
-            // 
-            this.btnConfiguração.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnConfiguração.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfiguração.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnConfiguração.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnConfiguração.Location = new System.Drawing.Point(36, 407);
-            this.btnConfiguração.Name = "btnConfiguração";
-            this.btnConfiguração.Size = new System.Drawing.Size(293, 77);
-            this.btnConfiguração.TabIndex = 2;
-            this.btnConfiguração.Text = "Configurações";
-            this.btnConfiguração.UseVisualStyleBackColor = true;
-            // 
-            // btnAgnedamentos
-            // 
-            this.btnAgnedamentos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnAgnedamentos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgnedamentos.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAgnedamentos.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAgnedamentos.Location = new System.Drawing.Point(36, 297);
-            this.btnAgnedamentos.Name = "btnAgnedamentos";
-            this.btnAgnedamentos.Size = new System.Drawing.Size(293, 77);
-            this.btnAgnedamentos.TabIndex = 1;
-            this.btnAgnedamentos.Text = "Agendamentos";
-            this.btnAgnedamentos.UseVisualStyleBackColor = true;
-            // 
-            // btnCadastro
-            // 
-            this.btnCadastro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadastro.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCadastro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCadastro.Location = new System.Drawing.Point(36, 186);
-            this.btnCadastro.Name = "btnCadastro";
-            this.btnCadastro.Size = new System.Drawing.Size(293, 77);
-            this.btnCadastro.TabIndex = 0;
-            this.btnCadastro.Text = "Cadastro";
-            this.btnCadastro.UseVisualStyleBackColor = true;
             // 
             // btnSair
             // 
-            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSair.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSair.Location = new System.Drawing.Point(36, 591);
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSair.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSair.ForeColor = System.Drawing.Color.GhostWhite;
+            this.btnSair.Location = new System.Drawing.Point(25, 652);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(293, 77);
+            this.btnSair.Size = new System.Drawing.Size(283, 90);
             this.btnSair.TabIndex = 3;
             this.btnSair.Text = "Sair";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.UseVisualStyleBackColor = false;
             // 
-            // Podologia
+            // btnConfiguraçao
+            // 
+            this.btnConfiguraçao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnConfiguraçao.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnConfiguraçao.ForeColor = System.Drawing.Color.GhostWhite;
+            this.btnConfiguraçao.Location = new System.Drawing.Point(25, 414);
+            this.btnConfiguraçao.Name = "btnConfiguraçao";
+            this.btnConfiguraçao.Size = new System.Drawing.Size(283, 90);
+            this.btnConfiguraçao.TabIndex = 2;
+            this.btnConfiguraçao.Text = "Configurações";
+            this.btnConfiguraçao.UseVisualStyleBackColor = false;
+            // 
+            // btnAgendamentos
+            // 
+            this.btnAgendamentos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAgendamentos.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAgendamentos.ForeColor = System.Drawing.Color.GhostWhite;
+            this.btnAgendamentos.Location = new System.Drawing.Point(25, 289);
+            this.btnAgendamentos.Name = "btnAgendamentos";
+            this.btnAgendamentos.Size = new System.Drawing.Size(283, 90);
+            this.btnAgendamentos.TabIndex = 1;
+            this.btnAgendamentos.Text = "Agendamentos";
+            this.btnAgendamentos.UseVisualStyleBackColor = false;
+            // 
+            // btnCadastro
+            // 
+            this.btnCadastro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCadastro.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastro.ForeColor = System.Drawing.Color.GhostWhite;
+            this.btnCadastro.Location = new System.Drawing.Point(25, 168);
+            this.btnCadastro.Name = "btnCadastro";
+            this.btnCadastro.Size = new System.Drawing.Size(283, 90);
+            this.btnCadastro.TabIndex = 0;
+            this.btnCadastro.Text = "Cadastro";
+            this.btnCadastro.UseVisualStyleBackColor = false;
+            // 
+            // FormPodologia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1817, 785);
             this.Controls.Add(this.panelMenu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Podologia";
+            this.Name = "FormPodologia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Podologia";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -124,9 +119,10 @@
         #endregion
 
         private Panel panelMenu;
-        private Button btnCadastro;
-        private Button btnConfiguração;
-        private Button btnAgnedamentos;
+        private Panel panelMenuSuperior;
+        private Button btnConfiguraçao;
+        private Button btnAgendamentos;
         private Button btnSair;
+        private Button btnCadastro;
     }
 }
